@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css.css" />
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
     <title>Raiz</title>
-</head>
-<body>
-    <a href="./joy/tour_recife/tour_recife_froggy/index.html">Tour Recife Froggy</a>
-</body>
+  </head>
+  <body>
+    <section>
+      <img src="./eu.png" alt="" />
+      <br />
+    </section>
+    <section>
+      <small>Flávio César</small>
+      <br />
+      <small>flavio.cmb@gmail.com</small>
+      <br />
+      <h2>Projetos pessoais</h2>
+      <p>
+        <a href="./joy/tour_recife/tour_recife_froggy/index.html"
+          >Tour Recife Froggy</a
+        >
+      </p>
+    </section>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener("load", addDarkmodeWidget);
+    </script> 
+  </body>
 </html>

@@ -1,0 +1,45 @@
+body {
+  background-color: #fafafa;
+  color: #555;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+section:last-of-type {
+  display: block;
+  text-align: center;
+}
+
+p {
+    list-style-type: disc;
+}
+
+small {
+    list-style-type: disc;
+}
+
+a {
+  color: #222;
+}
+
+a:hover {
+  color: #ec5840;
+}
+
+/* body.dark-mode {
+    background-color: #212529;
+    color: #899095;
+}
+
+.dark-mode {
+    color: #dee2e6;
+}
+
+.dark-mode a:hover {
+    color: #3cc368;
+} */
