@@ -10,13 +10,13 @@ body {
 
 body h1 {
   margin-bottom: 5px;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 body p {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 10px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 body span {
@@ -35,7 +35,7 @@ header {
 }
 
 header .imagembanner {
-  width: 80px;
+  width: 200px;
 }
 
 header nav ul {
@@ -51,8 +51,8 @@ header nav ul li {
   list-style-type: none;
   background: #05a889;
   color: black;
-  margin-left: 16px;
-  font-size: 7px;
+  margin-left: 20px;
+  font-size: 1rem;
   /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
@@ -61,7 +61,7 @@ header nav ul li a {
   text-decoration: none;
   background: #05a889;
   color: black;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 8px 8px;
 }
 
@@ -73,7 +73,7 @@ header nav ul li a:hover {
 
 main {
   display: block;
-  margin-top: 55px;
+  margin-top: 105px;
   padding: 10px;
 }
 
@@ -91,7 +91,7 @@ main section {
 main div.galeria {
   margin: 5px;
   border: 1px solid #ccc;
-  width: 180px;
+  width: 300px;
 }
 
 main div.galeria:hover {
@@ -104,7 +104,7 @@ main div.galeria img {
 }
 
 main div.descricao {
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 15px;
   text-align: center;
 }
@@ -128,11 +128,11 @@ footer nav dl {
   margin-right: 20px;
   border-radius: 10px;
   background: #05a889;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 footer nav dl dt {
   font-weight: bold;
   margin-bottom: 2px;
-  font-size: 3rem;
+  font-size: 1rem;
 }
