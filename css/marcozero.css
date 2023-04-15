@@ -1,0 +1,136 @@
+* {
+  font-family: "Maven Pro", sans-serif;
+  margin: 0; /* adicionar auto aqui desabilita a ideia do justify-content */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9f4d8;
+}
+
+body h1 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+body p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+body span {
+  font-weight: bold;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  padding: 10px 30px;
+  background-color: #fbc803;
+}
+
+header .imagembanner {
+  width: 80px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* aqui também poderia vir um list-style: none; */
+}
+
+header nav ul li {
+  list-style-type: none;
+  background: #05a889;
+  color: black;
+  margin-left: 16px;
+  font-size: 7px;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+header nav ul li a {
+  /* essa hierarquia foi criada para remover o sublinhado e adicionar cor ao texto */
+  text-decoration: none;
+  background: #05a889;
+  color: black;
+  border-radius: 5px;
+  padding: 8px 8px;
+}
+
+header nav ul li a:hover {
+  background-color: #0e927a;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+main {
+  display: block;
+  margin-top: 55px;
+  padding: 10px;
+}
+
+main section:first-of-type {
+  display: block;
+  margin-bottom: 5px;
+}
+
+main section {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+/* Aprendi a fazer isso com site W3 schools, parte da bibliografia do curso */
+main div.galeria {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+main div.galeria:hover {
+  border: 1px solid #777;
+}
+
+main div.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+main div.descricao {
+  font-size: 0.4rem;
+  padding: 15px;
+  text-align: center;
+}
+
+footer {
+  background-color: #fbc803;
+  padding: 10px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+footer nav dl {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background: #05a889;
+  font-size: 7px;
+}
+
+footer nav dl dt {
+  font-weight: bold;
+  margin-bottom: 2px;
+}

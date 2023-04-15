@@ -1,0 +1,49 @@
+* {
+    font-family: "Maven Pro", sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fbc803;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .imagembanner {
+    width: 120px;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* aqui também poderia vir um list-style: none; */
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    background: #05a889;
+    color: black;
+    margin-left: 16px;
+    font-size: 7px;
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  
+  nav ul li a {
+    /* essa hierarquia foi criada para remover o sublinhado e adicionar cor ao texto */
+    text-decoration: none;
+    background: #05a889;
+    color: black;
+    border-radius: 5px;
+    padding: 8px 8px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0e927a;
+    color: white;
+    transition-duration: 0.4s;
+  }
