@@ -1,5 +1,6 @@
 * {
-  font-family: "Maven Pro", sans-serif;
+  font-family: 'Maven Pro', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   margin: 0; /* adicionar auto aqui desabilita a ideia do justify-content */
   box-sizing: border-box;
 }
@@ -13,13 +14,12 @@ body h1 {
   font-size: 3rem;
 }
 
-body p {
-  font-family: 'Open Sans', sans-serif;
+body main section p {
   margin-bottom: 10px;
   font-size: 2rem;
 }
 
-body span {
+body main section p span {
   font-weight: bold;
 }
 
@@ -77,15 +77,15 @@ main {
   padding: 10px;
 }
 
-main section:first-of-type {
-  display: block;
-  margin-bottom: 5px;
-}
-
 main section {
   margin-bottom: 5px;
   display: flex;
   justify-content: space-evenly;
+}
+
+main section:first-of-type {
+  display: block;
+  margin-bottom: 5px;
 }
 
 /* Aprendi a fazer isso com site W3 schools, parte da bibliografia do curso */
@@ -117,6 +117,7 @@ footer {
 }
 
 footer nav {
+  /* font-family: 'Open Sans', sans-serif; */
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -137,4 +138,8 @@ footer nav dl dt {
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 1rem;
+}
+
+footer nav dl dt, dd {
+  font-family: 'Open Sans', sans-serif;
 }
