@@ -85,6 +85,7 @@ main section:first-of-type {
 main section {
   margin-bottom: 5px;
   display: flex;
+  justify-content: space-evenly;
 }
 
 /* Aprendi a fazer isso com site W3 schools, parte da bibliografia do curso */
