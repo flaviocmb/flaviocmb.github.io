@@ -8,7 +8,6 @@ body div.bordapagina {
   border: 5px solid #69b1e1;
   margin: 10px;
   padding: 10px;
-  /* height: 100vh; */
 }
 
 header {
@@ -24,15 +23,15 @@ header div:first-of-type {
 
 header div img {
   border-radius: 40px;
-  width: 1000px;
+  width: 50vw;
 }
 
 header div.buscador input {
   border-radius: 30px;
-  width: 400px;
+  width: 20vw;
   height: 50px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 header div:last-of-type nav {
@@ -60,6 +59,10 @@ header div:last-of-type nav ul li a {
   text-decoration: none;
 }
 
+header div:last-of-type nav ul li a:hover {
+  color: #537b9d
+}
+
 /* 
     o header termina aqui 
 */
@@ -85,7 +88,7 @@ body div.linhaverticalnomeio {
   height: 25vh;
   background-color: #69b1e1;
   padding: 0.5px;
-  margin: 90px 150px;
+  margin: 90px 8vw;
 }
 
 body section {
@@ -129,7 +132,16 @@ fieldset input[type="submit"] {
 
 fieldset input[type="submit"]:hover {
     background-color: #0f78c8;
+    transition-duration: 0.4s;
 }
+
+/* fieldset input[type="checkbox"] {
+  display: none;
+} */
+
+/* fieldset input[type="checkbox"]:checked + field label {
+  background: #f00;
+} */
 
 .alinharcheckboxbotao {
   display: flex;
@@ -159,9 +171,9 @@ footer nav {
 footer nav dl {
   display: block;
   background-color: #69b1e1;
-  padding: 25px 90px;
+  padding: 1vh 4vw;
   border-radius: 20px;
-  height: 150px;
+  height: 15vh;
 }
 
 footer nav dl dt {
@@ -171,5 +183,5 @@ footer nav dl dt {
 footer nav dl dt,
 dd {
   color: white;
-  padding: 10px 0px;
+  padding: 0.6vh 0px;
 }
