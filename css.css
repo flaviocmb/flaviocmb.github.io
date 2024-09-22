@@ -68,6 +68,7 @@ small {
 
 .profile {
   margin-block: 2rem 1.5rem;
+  margin-inline: 10px;
 }
 
 .profile__container {
@@ -83,6 +84,7 @@ small {
 
 .projects {
   text-align: center;
+  margin-inline: 10px;
 }
 
 .projects__container {
