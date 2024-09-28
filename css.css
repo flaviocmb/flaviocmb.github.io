@@ -54,16 +54,15 @@ body {
 
 h2, h3 {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 2rem;
-  text-transform: uppercase;
 }
 
 h3 {
   font-size: 1.5rem;
-  text-transform: uppercase;
 }
 
 small {
@@ -84,6 +83,18 @@ small {
 
 .profile__name {
   margin-block: 20px 5px;
+}
+
+.profile__component {
+  margin-block-end: 5px;
+}
+
+.profile__component a {
+  text-decoration: none;
+}
+
+.profile__component a:hover {
+  text-decoration: underline;
 }
 
 .projects {
